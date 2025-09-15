@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>FWI Prediction Project</title>
+	<style>
+		body {
+			background: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+			font-family: 'Segoe UI', Arial, sans-serif;
+			margin: 0;
+			padding: 0;
+			min-height: 100vh;
+		}
+		.container {
+			max-width: 700px;
+			margin: 60px auto;
+			background: rgba(255,255,255,0.95);
+			border-radius: 18px;
+			box-shadow: 0 8px 32px rgba(60,60,60,0.15);
+			padding: 40px 32px;
+		}
+		h1 {
+			text-align: center;
+			color: #d35400;
+			margin-bottom: 18px;
+			font-size: 2.5rem;
+		}
+		.desc {
+			font-size: 1.2rem;
+			color: #444;
+			margin-bottom: 28px;
+			text-align: center;
+		}
+		ul {
+			background: #f9e7d3;
+			border-radius: 10px;
+			padding: 18px 24px;
+			color: #6d4c41;
+			font-size: 1.08rem;
+			margin-bottom: 24px;
+		}
+		li {
+			margin-bottom: 8px;
+		}
+		.footer {
+			text-align: center;
+			color: #d35400;
+			font-size: 1.1rem;
+			margin-top: 32px;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<h1>Welcome to the FWI Prediction Project</h1>
+		<div class="desc">
+			This web application helps you predict the Fire Weather Index (FWI) using various meteorological and environmental parameters.<br>
+			Enter your data, and get instant predictions to assist in wildfire risk assessment.
+		</div>
+		<ul>
+			<li><strong>Features:</strong></li>
+			<li>Easy-to-use form for entering weather and region data</li>
+			<li>Instant FWI prediction using advanced algorithms</li>
+			<li>Beautiful, responsive design for all devices</li>
+			<li>Secure and fast data processing</li>
+		</ul>
+		<ul>
+			<li><strong>Parameters Used:</strong></li>
+			<li>Temperature</li>
+			<li>Relative Humidity (RH)</li>
+			<li>Wind Speed (WS)</li>
+			<li>Rain</li>
+			<li>FFMC, DMC, ISI, Classes, Region</li>
+		</ul>
+		<div class="footer">
+			<em>Created by your team &mdash; Powered by Flask & Jinja2</em>
+		</div>
+	</div>
+</body>
+</html>
